@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins";
 }
 
 body{
@@ -42,4 +44,9 @@ main{
     padding-left: 100px;
     padding-right: 0;
     grid-area: main;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
 }
