@@ -1,0 +1,26 @@
+/*Header/navbar*/
+
+.logo > h1{
+    font-weight: 900;
+    font-size: 70px;
+    text-shadow: 1px 1px black, -1px -1px black;
+    color: #8000CE;
+}
+.logo > h3{
+    letter-spacing: 2px;
+}
+
+nav > a{
+color: grey;
+margin: 10px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    border:none;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #8B28C7 , #5533F6 );
+}
+
+/*Main*/
