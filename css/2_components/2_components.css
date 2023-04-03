@@ -1,48 +1,137 @@
 /*Header/navbar*/
 
-.logo > h1{
+.logo>h1 {
     font-weight: 900;
     font-size: 70px;
     text-shadow: 1px 1px black, -1px -1px black;
     color: #8000CE;
 }
-.logo > h3{
+
+.logo>h3 {
     letter-spacing: 2px;
 }
 
-nav > a{
-color: grey;
-margin: 10px;
-transition: 0.5s;
+nav>a {
+    color: grey;
+    margin: 10px;
+    transition: 0.5s;
 }
 
-.btn{
+.btn {
+    color: white;
+    margin: 10px;
     width: 150px;
     height: 40px;
-    border:none;
+    border: none;
     border-radius: 15px;
-    background-image: linear-gradient(to right, #8B28C7 , #5533F6 );
+    background-image: linear-gradient(to right, #8B28C7, #5533F6);
 }
 
 /*Main*/
 
-main > .left-side > h1, h3, .btn , .links{
-    margin: 5px;
+main>.left-side>h1,
+h3,
+.btn,
+.links {
+    margin-left: 5px;
 }
 
-main > .left-side > h1{
+.links{
     font-size: 50px;
 }
 
-main > .left-side > h3{
+main>.left-side>h1 {
+    font-size: 70px;
+}
+
+main>.left-side>h3 {
     font-size: 30px;
 }
 
-article > i{
+article>i {
     font-size: 300px;
 }
 
-article > .languages > i{
+article>.languages>i {
     font-size: 60px;
     margin: 10px;
+}
+
+
+
+/*Segunda parte*/
+.skills>section>button>i {
+    font-size: 60px;
+}
+
+.skills>section>button {
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    margin: 10px;
+    height: 70px;
+    border-radius: 30px;
+    box-shadow: 0 1px 8px black;
+    transition: 0.5s;
+}
+
+.skills>section>#html:hover {
+    background-color: #EC6231;
+}
+
+.skills>section>#css:hover {
+    background-color: #0000FF;
+}
+
+.skills>section>#js:hover {
+    background-color: #FFDF00;
+}
+
+.skills>section>#php:hover {
+    background-color: #777BB3;
+}
+
+.skills>section>#react:hover {
+    background-color: #319DEC;
+}
+
+.skills > main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills>main>img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+.skills > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.skills > article > h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.skills > article > .links > button{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    font-size: 50px;
+    border: none;
+    box-shadow: 0 1px 10px black;
+    margin: 10px;
+    cursor: pointer;
 }

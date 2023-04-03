@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,20 +8,49 @@
     text-decoration: none;
 }
 
-body{
+body {
     background-color: #0E0625;
     color: white;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 80px calc(100vh - 80px);
     grid-template-areas: "header header"
-                         "main article" ;
+                         "main article";
 }
 
-header{
+.skills {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 120px calc(100vh - 140px);
+    grid-template-areas: "section section"
+                          "main article";
+}
+
+.skills > section{
+    margin-right: auto;
+    margin-left: auto;
+    width: 50vw;
+    height: 90px;
+    margin-bottom: 30px;
+    grid-area: section;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills > main {
+    grid-area: main;
+}
+
+.skills > article{
+    grid-area: article;
+}
+
+.container header {
     grid-area: header;
     width: 100%;
     height: 80px;
@@ -30,7 +60,7 @@ header{
     align-items: center;
 }
 
-article{
+.container article {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -38,7 +68,7 @@ article{
     grid-area: article;
 }
 
-main{
+.container main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +76,14 @@ main{
     grid-area: main;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
+}
+
+.cor{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin-left: 5px;
 }
