@@ -13,6 +13,7 @@
 nav > a{
 color: grey;
 margin: 10px;
+transition: 0.5s;
 }
 
 .btn{
@@ -24,3 +25,24 @@ margin: 10px;
 }
 
 /*Main*/
+
+main > .left-side > h1, h3, .btn , .links{
+    margin: 5px;
+}
+
+main > .left-side > h1{
+    font-size: 50px;
+}
+
+main > .left-side > h3{
+    font-size: 30px;
+}
+
+article > i{
+    font-size: 300px;
+}
+
+article > .languages > i{
+    font-size: 60px;
+    margin: 10px;
+}
